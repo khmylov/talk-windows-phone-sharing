@@ -1,0 +1,1 @@
+This is a sample app for the "Windows Phone app integration" talk at Minsk Windows Community, May 06, 2014.

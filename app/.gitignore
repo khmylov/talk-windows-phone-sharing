@@ -1,0 +1,8 @@
+[Bb]in/
+[Oo]bj/
+[Db]ebug/
+[Rr]eleases/
+*.suo
+*.user
+*.sln.docstates
+packages/*

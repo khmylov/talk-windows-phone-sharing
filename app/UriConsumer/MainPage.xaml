@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="UriConsumer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UriConsumer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#031959">
+
+    <Grid Margin="12,12,12,0">
+        <StackPanel>
+            <TextBlock
+                Style="{ThemeResource TitleTextBlockStyle}"
+                FontSize="{ThemeResource TextStyleMediumFontSize}"
+                Text="DATA CONSUMER"/>
+
+            <TextBlock
+                x:Name="StatusText"
+                Style="{ThemeResource TitleTextBlockStyle}"
+                FontSize="{ThemeResource TextStyleExtraLargeFontSize}"
+                Margin="0,12"
+                Text="No data retrieved"
+                TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Page>

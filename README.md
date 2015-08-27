@@ -1,0 +1,1 @@
+Slides and sample app for "Windows Phone Sharing" talk at Minsk WinDev Community meetup, 2014
